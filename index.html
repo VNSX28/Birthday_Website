@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+
+    <title>Ambasing</title>
+</head>
+
+<style>
+    *{
+        font-family: "DM Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        text-align: center;
+    }
+
+    /* Mobile */
+    @media (max-width: 505px) {
+        h1{
+            margin-top: 80px;
+            margin-bottom: 5px;
+            font-size: 1.8rem;
+            color: aliceblue;
+        }
+
+        h2{
+            color: aliceblue;
+            margin-top: 35px;
+        }
+
+        h3 {
+            margin-top: 5px;
+            font-weight: 300;
+            font-size: 1rem;
+            color: aliceblue;
+        }
+
+        #dropdown{
+            width: 280px;
+            height: 34px;
+            border-radius: 8px;
+        }   
+
+        button{
+            margin-top: 14px;
+            width: 174px;
+            height: 42px;
+            border: none;
+            border-radius: 100px;
+            background-color: rgb(18, 127, 216);
+            color: white;
+            cursor: pointer;
+            font-size: 0.9rem;
+        }
+
+        hr{
+            width: 90%;
+            margin-top: 40px;
+        
+        
+        }
+
+        #aa{
+            margin: auto;
+            display: flex;
+            width: 90%;
+            text-align: center;
+            gap: 5%;
+            overflow-x: scroll;
+            overflow-y: hidden;
+            scrollbar-color: rgb(18, 127, 216) #393939;
+            scrollbar-width: thin;
+            margin-bottom: 20px;
+        }
+
+        img{
+            width: 49%;
+            height: auto;
+            aspect-ratio: 4/5;
+            object-fit: cover;
+            border-radius: 20px;
+            margin-bottom: 20px;
+        }
+
+        #vid{
+            width: 92%;
+            height: auto;
+            margin: auto;
+        }
+
+        iframe{
+            width: 91%;
+            margin: auto;
+            height: 240px;
+        }
+    }
+
+    /* Tablet */
+    @media (min-width: 506px) and (max-width: 768px) {
+        *{
+            display: none;
+        }
+    }
+
+    /* PC */
+    @media (min-width: 769px) {
+        *{
+            display: none;
+        }
+    }
+</style>
+
+<body style="background-color: black;">
+    <h1>Halo Banh</h1>
+    <h3>Selamat Ulang Tahun <b>Ke-19</b></h3>
+    <!-- <select name="" id="dropdown">
+        <option value="">...</option>
+        <option value="">CODE</option>
+    </select> -->
+    <button onclick="a()">Virus</button>
+    <hr>
+    <h2>Foto</h2>
+    <div id="aa">
+        <img src="https://i.pinimg.com/736x/c6/93/38/c69338bdfdda8b8cd786005dbd4801b6.jpg" alt="">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJgsOp2hFqSH1bvWhDD7kPHDnDix5InPBNcA&s" alt="">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSduD-cWSVieZsTQ2mIgUOfnhAp9Q1GJqlT7A&s" alt="">
+        <img src="https://us-tuna-sounds-images.voicemod.net/780ddb20-bb69-4d07-a64c-1bef573a8e45-1693103711766.jpeg" alt="">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8LiNvJ1S-s5I-fE01B4woMvCv_NXILo_Oz0NK7wNq4bW1sd28bh5UdDexdk0L2KAs4ME&usqp=CAU" alt="">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyEAO3jFcIKxC3Y-WnAXPlLhN3ydHPnHuWKg&s" alt="">
+    </div>
+    <h2>Lagu</h2>
+    <iframe src="https://www.youtube.com/embed/USpw3I41pnc?si=b5_D2jOucIkaV2LT" frameborder="0" allowfullscreen></iframe>
+    <!-- <div id="vid">
+    </div> -->
+</body>
+
+<script>
+    function a(){
+        alert('Kado Barbie Nya Menyusul ')
+    }
+</script>
+
+</html>
